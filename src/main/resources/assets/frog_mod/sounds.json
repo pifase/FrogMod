@@ -1,0 +1,20 @@
+{
+  "frog.ambient": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "frog_mod:frog_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "frog.hurt": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "frog_mod:frog_hurt",
+        "stream": false
+      }
+    ]
+  }
+}
