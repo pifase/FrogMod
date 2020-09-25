@@ -32,13 +32,13 @@ public static class Modelcustom_model extends EntityModel<Entity> {
 		bone3.setRotationPoint(0.0F, 6.0F, -0.2F);
 		left_foot.addChild(bone3);
 		setRotationAngle(bone3, 0.0F, 0.7854F, 0.0F);
-		bone3.setTextureOffset(26, 24).addBox(-1.0F, -0.5F, -3.5F, 2.0F, 1.0F, 4.0F, 0.0F, false);
+		bone3.setTextureOffset(52, 27).addBox(-1.0F, -0.5F, -3.5F, 2.0F, 1.0F, 4.0F, 0.0F, false);
 
 		bone4 = new ModelRenderer(this);
 		bone4.setRotationPoint(0.0F, 6.0F, -0.2F);
 		left_foot.addChild(bone4);
 		setRotationAngle(bone4, 0.0F, -0.7854F, 0.0F);
-		bone4.setTextureOffset(26, 24).addBox(-1.0F, -0.5F, -3.5F, 2.0F, 1.0F, 4.0F, 0.0F, false);
+		bone4.setTextureOffset(0, 24).addBox(-1.0F, -0.5F, -3.5F, 2.0F, 1.0F, 4.0F, 0.0F, false);
 
 		right_foot = new ModelRenderer(this);
 		right_foot.setRotationPoint(3.0F, 15.5F, 6.2F);
@@ -48,13 +48,13 @@ public static class Modelcustom_model extends EntityModel<Entity> {
 		bone.setRotationPoint(0.0F, 0.0F, 0.0F);
 		right_foot.addChild(bone);
 		setRotationAngle(bone, 0.0F, -0.7854F, 0.0F);
-		bone.setTextureOffset(8, 24).addBox(-1.0F, 5.5F, -3.7F, 2.0F, 1.0F, 4.0F, 0.0F, false);
+		bone.setTextureOffset(0, 24).addBox(-1.0F, 5.5F, -3.7F, 2.0F, 1.0F, 4.0F, 0.0F, false);
 
 		bone2 = new ModelRenderer(this);
 		bone2.setRotationPoint(0.0F, 0.0F, 0.0F);
 		right_foot.addChild(bone2);
 		setRotationAngle(bone2, 0.0F, 0.7854F, 0.0F);
-		bone2.setTextureOffset(8, 24).addBox(-1.0F, 5.5F, -3.7F, 2.0F, 1.0F, 4.0F, 0.0F, false);
+		bone2.setTextureOffset(52, 27).addBox(-1.0F, 5.5F, -3.7F, 2.0F, 1.0F, 4.0F, 0.0F, false);
 
 		left_thigh = new ModelRenderer(this);
 		left_thigh.setRotationPoint(-3.0F, 17.0F, 4.5F);
@@ -80,8 +80,8 @@ public static class Modelcustom_model extends EntityModel<Entity> {
 		head.setRotationPoint(0.0F, 16.0F, -1.0F);
 		head.setTextureOffset(32, 0).addBox(-2.5F, -4.0F, -5.0F, 5.0F, 3.0F, 5.0F, 0.0F, false);
 		head.setTextureOffset(32, 0).addBox(-2.5F, -1.0F, -4.0F, 5.0F, 1.0F, 4.0F, 0.0F, false);
-		head.setTextureOffset(32, 0).addBox(1.5F, -5.0F, -3.0F, 2.0F, 2.0F, 2.0F, 0.0F, false);
-		head.setTextureOffset(32, 0).addBox(-3.5F, -5.0F, -3.0F, 2.0F, 2.0F, 2.0F, 0.0F, false);
+		head.setTextureOffset(56, 12).addBox(1.5F, -5.0F, -3.0F, 2.0F, 2.0F, 2.0F, 0.0F, false);
+		head.setTextureOffset(56, 18).addBox(-3.5F, -5.0F, -3.0F, 2.0F, 2.0F, 2.0F, 0.0F, false);
 
 		right_ear = new ModelRenderer(this);
 		right_ear.setRotationPoint(0.0F, 16.0F, -1.0F);
